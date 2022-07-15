@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    min-height: 100vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.heading{
+    width: 500px;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.heading select{
+    display: block;
+    width: 100%;
+    padding: 3px;
+    border: 1px solid orange;
+    background-color: transparent;
+    color: orange;
+    border-radius: 6px;
+    font-size: 14px;
+    margin: 8px 0px;
+}
+
+.heading button{
+    padding: 6px 15px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#grid{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+.cell-10{
+    width: calc(100% / (100 / 10));
+    height: calc(100% / (100 / 10));
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-9{
+    width: calc(100% / (81 / 9));
+    height: calc(100% / (81 / 9));
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-7{
+    width: calc(100% / (49 / 7));
+    height: calc(100% / (49 / 7));
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-clicked{
+    background-color: orange;
+}
+
+.cell-bomb{
+    background-color: red;
+}

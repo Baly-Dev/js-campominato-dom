@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Mine -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Minefield</title>
+</head>
+<body>
+
+    <main>
+
+        <div class="heading">
+            <div class="w-50">
+                <h1>Minefield</h1>
+                <p id="point">Punti</p>
+            </div>
+            <div class="w-50">
+                <label for="difficulty">Select Level</label>
+                <select name="difficulty" id="difficulty" placeholder="Lorem">
+                    <option value="easy">Easy</option>
+                    <option value="hard">hard</option>
+                    <option value="impossible">impossible</option>
+                </select>
+                <div class="btn-wrapper">
+                    <button id="btnSelect" class="btn">Select</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="grid">
+
+        </div>
+    </main>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
